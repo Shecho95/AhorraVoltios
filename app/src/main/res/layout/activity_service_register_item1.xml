@@ -15,6 +15,7 @@
         app:srcCompat="@drawable/toptitle" />
 
     <LinearLayout
+        android:id="@+id/linearLayout"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_marginStart="50dp"
@@ -103,7 +104,7 @@
                     android:layout_weight="1"
                     android:text="Volumen"
                     android:textColor="@color/black"
-                    android:textSize="20dp"/>
+                    android:textSize="20dp" />
 
                 <EditText
                     android:id="@+id/editTextVolumen"
@@ -111,8 +112,8 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:ems="10"
-                    android:inputType="textPersonName"
-                    android:hint="Ingrese los m³ mensuales" />
+                    android:hint="Ingrese los m³ mensuales"
+                    android:inputType="textPersonName" />
             </LinearLayout>
 
             <Space
@@ -129,9 +130,9 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:text="Precio"
                     android:textColor="@color/black"
-                    android:textSize="22dp"
-                    android:text="Precio" />
+                    android:textSize="22dp" />
 
                 <EditText
                     android:id="@+id/editTextPrecioA"
@@ -139,8 +140,8 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:ems="10"
-                    android:inputType="number"
-                    android:hint="Ingrese el valor del m³" />
+                    android:hint="Ingrese el valor del m³"
+                    android:inputType="number" />
             </LinearLayout>
 
             <Space
@@ -158,8 +159,8 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="Mes: "
-                    android:textSize="22dp"
-                    android:textColor="@color/black"/>
+                    android:textColor="@color/black"
+                    android:textSize="22dp" />
 
                 <EditText
                     android:id="@+id/editTextMesA"
@@ -167,8 +168,8 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:ems="10"
-                    android:inputType="textPersonName"
-                    android:hint="Ingrese el mes" />
+                    android:hint="Ingrese el mes"
+                    android:inputType="textPersonName" />
             </LinearLayout>
 
             <Space
@@ -179,8 +180,8 @@
                 android:id="@+id/btnRegistrarAgua"
                 android:layout_width="match_parent"
                 android:layout_height="48dp"
-                android:textAlignment="center"
-                android:text="Registrar" />
+                android:text="Registrar"
+                android:textAlignment="center" />
 
         </LinearLayout>
 

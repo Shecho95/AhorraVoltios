@@ -19,7 +19,7 @@
         android:layout_height="0dp"
         android:layout_marginStart="50dp"
         android:layout_marginEnd="50dp"
-        android:layout_marginBottom="100dp"
+        android:layout_marginBottom="0dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -35,12 +35,12 @@
             android:text="AhorraVoltios"
             android:textAlignment="center"
             android:textColor="@color/black"
-            android:textSize="45dp"
+            android:textSize="40dp"
             android:textStyle="bold" />
 
         <Space
             android:layout_width="match_parent"
-            android:layout_height="45dp" />
+            android:layout_height="15dp" />
 
         <TextView
             android:id="@+id/textView"
@@ -61,7 +61,7 @@
 
         <Space
             android:layout_width="match_parent"
-            android:layout_height="25dp" />
+            android:layout_height="5dp" />
 
         <TextView
             android:id="@+id/textView2"
@@ -82,12 +82,12 @@
 
         <Space
             android:layout_width="match_parent"
-            android:layout_height="35dp" />
+            android:layout_height="15dp" />
 
         <Button
             android:id="@+id/botonIngresar"
             android:layout_width="match_parent"
-            android:layout_height="100dp"
+            android:layout_height="60dp"
             android:backgroundTint="#D09898"
             android:text="Ingresar"
             android:textColor="@color/black"
